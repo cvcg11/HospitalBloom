@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><a href="boletin.html">Boletín</a></li>
                     <li><a href="boletin.html">Testimonios</a></li>
                     <li><a href="contactanos.html">Contáctanos</a></li>
+                    <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
                 </ul>
             </nav>
         </div>
@@ -17,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Buscar el elemento header
     const headerElement = document.querySelector('header');
-    
+
     // Si existe el header, inyectar el contenido
     if (headerElement) {
         headerElement.innerHTML = headerHTML;
